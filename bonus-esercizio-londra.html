@@ -5,19 +5,35 @@
             Viaggio a Londra
         </title>
         <style type="text/css">
-            h1, h2{
-                color:red;
+            body{
+                background-image: url("https://previews.123rf.com/images/vatrushka67/vatrushka671407/vatrushka67140700004/30027160-london-skyline-silhouette-hintergrund-vektor-illustration.jpg");
+                background-repeat:no-repeat ;
+                background-position: center center;
+            }
+            .opacita{
+                opacity: 0.9;
+                filter: alpha(opacity=90);
+            }
+            .opacita2{
+                opacity: 0.7;
+                filter: alpha(opacity=70);
+            }
+            h2{
+                color:rgb(165, 49, 49);
+            }
+            #titolo-pagina{
+                color:rgb(13, 13, 99);
             }
         </style>
     </head> 
-    <body background="img\london.png">
+    <body>
         <section> <!--Prima parte immagini inserite da cartella-->
-        <h1>
+        <h1 id="titolo-pagina">
             Il mio viaggio a Londra
         </h1>
             <img src ="img\pexels-bill-emrich-230794-0.jpg" width="200">
-            <img src ="img\pexels-bill-emrich-230794-1.jpg" width="200">
-            <img src ="img\pexels-bill-emrich-230794-2.jpg" width="200">
+            <img src ="img\pexels-bill-emrich-230794-1.jpg" class="opacita" width="200">
+            <img src ="img\pexels-bill-emrich-230794-2.jpg" class="opacita2" width="200">
                         <hr>
         </section>
         <section> <!--Seconda parte, tabella-->
